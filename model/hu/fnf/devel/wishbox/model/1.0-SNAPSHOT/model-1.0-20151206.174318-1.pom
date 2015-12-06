@@ -63,6 +63,7 @@
                     <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                     <branch>refs/heads/snapshot</branch>                       <!-- remote branch name -->
+                    <path>${artifactId}</path>
                     <includes><include>**/*</include></includes>
                     <repositoryName>mvn-repo</repositoryName>      <!-- github repo name -->
                     <repositoryOwner>csikosbalint</repositoryOwner>    <!-- github username  -->
